@@ -25,7 +25,7 @@ What things you need to install the software and how to install them
 
 ### Installing
 
-Run "npm i" in your terminal from the root directory of this project to install the necessary packages
+Run "npm i" in your terminal from the root directory of this project to install the necessary packages.
 <!-- A step by step series of examples that tell you how to get a development
 env running
 
@@ -43,7 +43,7 @@ for a little demo -->
 
 ## Running the tests
 
-Run "npm run test" in the directory which you would like to see test results
+Run "npm run test" in the directory which you would like to see test results.
 <!-- 
 ### Break down into end to end tests
 
@@ -97,5 +97,5 @@ who participated in this project. -->
 ## Acknowledgments
 
   - Big thank you to Billie Thompson for a great ReadMe Template -> https://github.com/PurpleBooth/a-good-readme-template
-  - Hat tip to the create-react-app generator and their open source code
-  - Many thanks to the to the phenomenal documentations describing the use of the packeges used in this project
+  - Hat tip to the create-react-app generator and their open source code.
+  - Many thanks to the to the phenomenal documentations describing the use of the packeges used in this project.

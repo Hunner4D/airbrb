@@ -1,4 +1,4 @@
-# Project AirBrb
+# Project: AirBrb
 
 Project Description
 
@@ -8,10 +8,7 @@ Project Description
   - [Runing the tests](#running-the-tests)
   - [Deployment](#deployment)
   - [Built With](#built-with)
-  <!-- - [Contributing](#contributing) -->
-  <!-- - [Versioning](#versioning) -->
   - [Authors](#authors)
-  <!-- - [License](#license) -->
   - [Acknowledgments](#acknowledgments)
 
 ## Getting Started
@@ -19,12 +16,12 @@ Project Description
 These instructions will get you a copy of the project up and running on
 your local machine for development and testing purposes. See deployment
 for notes on how to deploy the project on a live system.
-
+<!-- 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
-    Give examples
+    Give examples -->
 
 ### Installing
 

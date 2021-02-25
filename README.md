@@ -65,7 +65,7 @@ This project will be uploaded through AWS. A link will be made available as soon
 
 ## Built With
 
-  - [React.JS](https://reactjs.org/)
+  - [React.Js](https://reactjs.org/)
   - [Jest](https://jestjs.io/) - Used for testing
   - [Sass](https://sass-lang.com/) - CSS preprocessor for clean styling
 <!-- 

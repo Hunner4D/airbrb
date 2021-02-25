@@ -1,6 +1,6 @@
 # Project: AirBrb
 
-Project Description
+Description here
 
 ## Summary
 
@@ -97,5 +97,5 @@ who participated in this project. -->
 ## Acknowledgments
 
   - Big thank you to Billie Thompson for a great ReadMe Template -> https://github.com/PurpleBooth/a-good-readme-template
-  - Hat tip to create-react-app and their open source code
+  - Hat tip to the create-react-app generator and their open source code
   - Many thanks to the to the phenomenal documentations describing the use of the packeges used in this project

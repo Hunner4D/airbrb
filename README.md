@@ -40,6 +40,7 @@ And repeat
 End with an example of getting some data out of the system or using it
 for a little demo -->
 
+
 ## Running the tests
 
 How to run the automated tests for this system
@@ -56,9 +57,11 @@ What these tests test and why
 
     Example -->
 
+
 ## Deployment
 
 Additional notes on deployment
+
 
 ## Built With
 
@@ -94,5 +97,5 @@ who participated in this project. -->
 ## Acknowledgments
 
   - Big thank you to Billie Thompson for a great ReadMe Template -> https://github.com/PurpleBooth/a-good-readme-template
-  - Hat tip to create-react-app
+  - Hat tip to create-react-app and their open source code
   - Many thanks to the to the phenomenal documentations describing the use of the packeges used in this project

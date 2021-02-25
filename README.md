@@ -25,7 +25,7 @@ What things you need to install the software and how to install them
 
 ### Installing
 
-Simply run "npm i" in your terminal from the root directory of this project to install the necessary packages
+Run "npm i" in your terminal from the root directory of this project to install the necessary packages
 <!-- A step by step series of examples that tell you how to get a development
 env running
 
@@ -43,7 +43,7 @@ for a little demo -->
 
 ## Running the tests
 
-How to run the automated tests for this system
+Run "npm run test" in the directory which you would like to see test results
 <!-- 
 ### Break down into end to end tests
 
@@ -60,7 +60,7 @@ What these tests test and why
 
 ## Deployment
 
-Additional notes on deployment
+This project will be uploaded through AWS. A link will be made available as soon as it is deployed.
 
 
 ## Built With

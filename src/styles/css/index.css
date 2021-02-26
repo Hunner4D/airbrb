@@ -29,6 +29,86 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh; }
 
+.logo {
+  height: 3.25rem;
+  margin-left: 2rem; }
+
+.search {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .search__input {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 100px;
+    width: 90%;
+    transition: all 0.2s;
+    margin-right: -3.25rem; }
+    .search__input:focus {
+      background-color: #f0eeee;
+      outline: none;
+      width: 100%; }
+    .search__input::-webkit-input-placeholder {
+      font-weight: 100;
+      color: #bbbbbb; }
+    .search__input::-moz-placeholder {
+      font-weight: 100;
+      color: #bbbbbb; }
+  .search__input:focus + .search__button {
+    background-color: #f0eeee; }
+  .search__button {
+    background-color: #f4f2f2;
+    border: none; }
+    .search__button:focus {
+      outline: none; }
+    .search__button:active {
+      transform: translateY(2px); }
+  .search__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: #999; }
+
+.user-nav {
+  align-self: stretch;
+  display: flex;
+  align-items: center; }
+  .user-nav > * {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+  .user-nav > *:hover {
+    background-color: #f4f2f2; }
+  .user-nav__icon-box {
+    position: relative; }
+  .user-nav__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+    fill: #777; }
+    .user-nav__icon__notification {
+      font-size: 0.8rem;
+      height: 1.75rem;
+      width: 1.75rem;
+      border-radius: 50%;
+      background-color: #eb2f64;
+      color: #fff;
+      position: absolute;
+      top: 1.5rem;
+      right: 1.1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .user-nav__user-photo {
+    height: 3.75rem;
+    border-radius: 50%;
+    margin-right: 1rem; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -40,15 +120,18 @@ body {
   display: flex; }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: #f4f2f2; }
+  border-bottom: #f4f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .sidebar {
   background-color: #333;
   flex: 0 0 18%; }
 
 .main-view {
-  background-color: #fff;
-  background-color: cyan;
+  background-color: #d33486;
   flex: 1; }

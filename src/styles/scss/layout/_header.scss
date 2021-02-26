@@ -1,5 +1,10 @@
 .header {
-    height: 7rem;
-    background-color: #fff;
-    border-bottom: $color-grey-light-2;;
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: $color-grey-light-2;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

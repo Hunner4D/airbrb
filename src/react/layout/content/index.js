@@ -1,5 +1,5 @@
-import Sidebar from "../sidebar";
-import HotelView from "../../pages/hotel-view";
+import Sidebar from "react/layout/sidebar";
+import HotelView from "react/pages/hotel-view";
 
 export default function Content() {
   return (

@@ -1,4 +1,4 @@
-import Sidebar from "../../components/sidebar";
+import Sidebar from "../sidebar";
 import HotelView from "../../pages/hotel-view";
 
 export default function Content() {

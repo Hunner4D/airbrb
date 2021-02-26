@@ -98,4 +98,4 @@ who participated in this project. -->
 
   - Big thank you to Billie Thompson for a great ReadMe Template -> https://github.com/PurpleBooth/a-good-readme-template
   - Hat tip to the create-react-app generator and their open source code.
-  - Many thanks to the to the phenomenal documentations describing the use of the packeges used in this project.
+  - Many thanks to the to the phenomenal documentations describing the uses of the packeges used in this project.

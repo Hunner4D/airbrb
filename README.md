@@ -1,6 +1,6 @@
 # Project: AirBrb
 
-Description here
+This project will act as a service similar to Airbnb where it will specialize in finding and booking living spaces.
 
 ## Summary
 

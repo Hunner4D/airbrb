@@ -88,7 +88,9 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    padding: 1.5rem 3rem; }
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center; }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;

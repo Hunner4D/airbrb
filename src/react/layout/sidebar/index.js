@@ -1,11 +1,16 @@
 import sprite from "images/symbol-defs.svg";
 
 export default function Sidebar() {
+
+  const handleClick = () => {
+
+  }
+
   return (
     <nav className="sidebar">
       <ul className="side-nav">
         <li className="side-nav__item">
-          <a href="" className="side-nav__link">
+          <a href="#" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref={`${sprite}#icon-home`} />
             </svg>
@@ -14,7 +19,7 @@ export default function Sidebar() {
         </li>
 
         <li className="side-nav__item">
-          <a href="" className="side-nav__link">
+          <a href="#" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref={`${sprite}#icon-aircraft-take-off`} />
             </svg>
@@ -23,7 +28,7 @@ export default function Sidebar() {
         </li>
 
         <li className="side-nav__item">
-          <a href="" className="side-nav__link">
+          <a href="#" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref={`${sprite}#icon-key`} />
             </svg>
@@ -32,7 +37,7 @@ export default function Sidebar() {
         </li>
 
         <li className="side-nav__item">
-          <a href="" className="side-nav__link">
+          <a href="#" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref={`${sprite}#icon-map`} />
             </svg>

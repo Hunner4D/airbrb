@@ -174,7 +174,6 @@ body {
   align-items: center; }
 
 .main-view {
-  background-color: #d33486;
   height: 80rem;
   flex: 1; }
 
@@ -184,3 +183,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+
+.hotel-view__gallery {
+  display: flex; }
+  .hotel-view__gallery__photo {
+    width: 100%;
+    display: block; }

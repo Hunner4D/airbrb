@@ -92,9 +92,24 @@ body {
       width: 1.75rem;
       height: 1.75rem;
       fill: #eb2f64;
-      margin-right: .5rem; }
+      margin-right: 0.5rem; }
   .overview__rating {
-    background-color: #eb2f64; }
+    align-self: stretch;
+    background-color: #eb2f64;
+    color: #fff;
+    margin-left: 3rem;
+    padding: 0 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .overview__rating-average {
+      font-size: 2.25rem;
+      font-weight: 300;
+      margin-bottom: -3px; }
+    .overview__rating-count {
+      font-size: 0.8rem;
+      text-transform: uppercase; }
 
 .logo {
   height: 3.25rem;

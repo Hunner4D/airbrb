@@ -70,7 +70,7 @@ body {
 .overview {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #f4f2f2; }
+  border-bottom: 1px solid #ebebeb; }
   .overview__heading {
     font-size: 2.25rem;
     font-weight: 300;
@@ -259,3 +259,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+
+.hotel-view__detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: #f4f2f2;
+  border-bottom: 1px solid #f4f2f2; }
+  .hotel-view__detail__description {
+    background-color: mediumslateblue;
+    flex: 0 0 60%;
+    margin-right: 4.5rem; }
+  .hotel-view__detail__user-reviews {
+    flex: 1;
+    background-color: mediumspringgreen; }

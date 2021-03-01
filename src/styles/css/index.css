@@ -46,6 +46,22 @@ body {
   text-align: center;
   padding: 2.5rem; }
 
+.paragraph:not(:last-of-type) {
+  margin-bottom: 2rem; }
+
+.list {
+  list-style: none;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  flex-wrap: wrap; }
+  .list__item {
+    flex: 0 0 50%; }
+    .list__item:not(:last-of-type) {
+      margin-bottom: .7rem; }
+
 .btn-inline {
   border: none;
   color: #eb2f64;
@@ -250,7 +266,6 @@ body {
   align-items: center; }
 
 .main-view {
-  height: 80rem;
   flex: 1; }
 
 .sidebar {
@@ -264,9 +279,12 @@ body {
   display: flex;
   padding: 4.5rem;
   background-color: #f4f2f2;
-  border-bottom: 1px solid #f4f2f2; }
+  border-bottom: 1px solid #ebebeb; }
   .hotel-view__detail__description {
-    background-color: mediumslateblue;
+    font-size: 1.4rem;
+    background-color: #fff;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+    padding: 3rem;
     flex: 0 0 60%;
     margin-right: 4.5rem; }
   .hotel-view__detail__user-reviews {

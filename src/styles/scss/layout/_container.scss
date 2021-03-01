@@ -2,7 +2,7 @@
     max-width: 120rem;
     margin: 8rem auto;
     background-color: $color-grey-light-1;
-    @include shadowDark;
+    box-shadow: $shadow-dark;
   
     min-height: 50rem;
   }

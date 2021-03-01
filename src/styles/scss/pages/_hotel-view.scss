@@ -3,10 +3,13 @@
     display: flex;
     padding: 4.5rem;
     background-color: $color-grey-light-2;
-    border-bottom: $border-primary;
+    border-bottom: $border-secondary;
 
     &__description {
-      background-color: mediumslateblue;
+      font-size: 1.4rem;
+      background-color: #fff;
+      box-shadow: $shadow-light;
+      padding: 3rem;
       flex: 0 0 60%;
       margin-right: 4.5rem;
     }

@@ -35,7 +35,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #777;
-  background-image: linear-gradient(to right bottom, #FF3366, #BA265D);
+  background-image: linear-gradient(to right bottom, #ff3366, #ba265d);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
@@ -53,14 +53,40 @@ body {
   list-style: none;
   margin: 3rem 0;
   padding: 3rem 0;
-  border-top: 1px solid #ebebeb;
-  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #f0eeee;
+  border-bottom: 1px solid #f0eeee;
   display: flex;
   flex-wrap: wrap; }
   .list__item {
     flex: 0 0 50%; }
     .list__item:not(:last-of-type) {
-      margin-bottom: .7rem; }
+      margin-bottom: 0.7rem; }
+    .list__item::before {
+      content: "";
+      display: inline-block;
+      height: 1rem;
+      width: 1rem;
+      margin-right: 0.7rem;
+      background-color: #eb2f64;
+      -webkit-mask-image: url(../../images/SVG/chevron-thin-right.svg);
+      -webkit-mask-size: cover;
+      mask-image: url(../../images/SVG/chevron-thin-right.svg);
+      mask-size: cover; }
+
+.recommend {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  color: #bbbbbb; }
+  .recommend__friends__photo {
+    box-sizing: content-box;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px solid #fff; }
+    .recommend__friends__photo:not(:last-child) {
+      margin-right: -1.5rem; }
 
 .btn-inline {
   border: none;
@@ -86,7 +112,7 @@ body {
 .overview {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ebebeb; }
+  border-bottom: 1px solid #f0eeee; }
   .overview__heading {
     font-size: 2.25rem;
     font-weight: 300;
@@ -193,7 +219,7 @@ body {
     transform: scaleY(1);
     width: 100%; }
   .side-nav__item:active::before {
-    background-color: #FF3366; }
+    background-color: #ff3366; }
   .side-nav__link:link, .side-nav__link:visited {
     color: #faf9f9;
     text-decoration: none;
@@ -279,7 +305,7 @@ body {
   display: flex;
   padding: 4.5rem;
   background-color: #f4f2f2;
-  border-bottom: 1px solid #ebebeb; }
+  border-bottom: 1px solid #f0eeee; }
   .hotel-view__detail__description {
     font-size: 1.4rem;
     background-color: #fff;
@@ -289,4 +315,4 @@ body {
     margin-right: 4.5rem; }
   .hotel-view__detail__user-reviews {
     flex: 1;
-    background-color: mediumspringgreen; }
+    background-color: #646464; }

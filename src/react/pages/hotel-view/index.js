@@ -38,10 +38,10 @@ export default function HotelView() {
               Lucy and 3 other friends recommend this hotel.
             </div>
             <div className="recommend__friends">
-              <img src={userThree} alt="user 1" className="recommend__photo"/>
-              <img src={userFour} alt="user 2" className="recommend__photo"/>
-              <img src={userFive} alt="user 3" className="recommend__photo"/>
-              <img src={userSix} alt="user 4" className="recommend__photo"/>
+              <img src={userThree} alt="user 1" className="recommend__friends__photo"/>
+              <img src={userFour} alt="user 2" className="recommend__friends__photo"/>
+              <img src={userFive} alt="user 3" className="recommend__friends__photo"/>
+              <img src={userSix} alt="user 4" className="recommend__friends__photo"/>
             </div>
           </div>
         </div>

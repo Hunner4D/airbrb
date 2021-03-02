@@ -29,8 +29,8 @@ export default function Overview() {
         </svg>
         <button
           className="btn-inline"
-          onClick={() => {
-            return;
+          onClick={(e) => {
+            e.preventDefault()
           }}
         >
           Albufeira, Portugal

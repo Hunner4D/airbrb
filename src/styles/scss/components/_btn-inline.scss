@@ -13,6 +13,7 @@
     color: $color-grey-dark-1;
   }
 
+  &:active,
   &:focus {
     // outline: none;
     animation: pulsate 1s infinite;

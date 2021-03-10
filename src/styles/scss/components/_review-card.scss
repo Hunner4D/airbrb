@@ -1,0 +1,32 @@
+.review {
+  background-color: #fff;
+  box-shadow: $shadow-light;
+  padding: 3rem;
+  margin-bottom: 3.5rem;
+
+  &__text {
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-photo {
+      height: 4.5rem;
+      width: 4.5rem;
+      border-radius: 50%;
+    }
+    &-box {
+    flex: 1;
+
+      &__name {
+      }
+      &__date {
+      }
+    }
+  }
+
+  &__rating {
+  }
+}

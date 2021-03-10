@@ -157,6 +157,22 @@ body {
     .recommend__friends__photo:not(:last-child) {
       margin-right: -1.5rem; }
 
+.review {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  padding: 3rem;
+  margin-bottom: 3.5rem; }
+  .review__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .review__user-photo {
+      height: 4.5rem;
+      width: 4.5rem;
+      border-radius: 50%; }
+    .review__user-box {
+      flex: 1; }
+
 .search {
   flex: 0 0 40%;
   display: flex;
@@ -305,14 +321,13 @@ body {
   display: flex;
   padding: 4.5rem;
   background-color: #f4f2f2;
-  border-bottom: 1px solid #f0eeee; }
+  border-bottom: 1px solid #f0eeee;
+  font-size: 1.4rem; }
   .hotel-view__detail__description {
-    font-size: 1.4rem;
     background-color: #fff;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
     padding: 3rem;
     flex: 0 0 60%;
     margin-right: 4.5rem; }
   .hotel-view__detail__user-reviews {
-    flex: 1;
-    background-color: #646464; }
+    flex: 1; }

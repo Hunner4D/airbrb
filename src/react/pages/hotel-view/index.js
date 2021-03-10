@@ -1,6 +1,6 @@
 import Gallery from "react/components/gallery";
 import Overview from "react/components/overview";
-import UserReviewCard from "react/components/user-review-card";
+import ReviewCard from "react/components/review-card";
 
 import userThree from "images/user-3.jpg";
 import userFour from "images/user-4.jpg";
@@ -65,8 +65,8 @@ export default function HotelView() {
         </div>
 
         <div className="hotel-view__detail__user-reviews">
-          <UserReviewCard package={mock.userReviewOne}/>
-          <UserReviewCard package={mock.userReviewTwo}/>
+          <ReviewCard package={mock.userReviewOne}/>
+          <ReviewCard package={mock.userReviewTwo}/>
         </div>
       </div>
     </div>

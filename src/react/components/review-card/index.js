@@ -1,4 +1,4 @@
-export default function UserReviewCard(props) {
+export default function ReviewCard(props) {
   return (
     <figure className="review">
       <blockquote className="review__text">{props.package.text}</blockquote>

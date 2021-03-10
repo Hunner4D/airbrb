@@ -7,6 +7,8 @@ import userFour from "images/user-4.jpg";
 import userFive from "images/user-5.jpg";
 import userSix from "images/user-6.jpg";
 
+import * as mock from "react/mock";
+
 export default function HotelView() {
   return (
     <div className="hotel-view">
@@ -38,16 +40,33 @@ export default function HotelView() {
               Lucy and 3 other friends recommend this hotel.
             </div>
             <div className="recommend__friends">
-              <img src={userThree} alt="user 1" className="recommend__friends__photo"/>
-              <img src={userFour} alt="user 2" className="recommend__friends__photo"/>
-              <img src={userFive} alt="user 3" className="recommend__friends__photo"/>
-              <img src={userSix} alt="user 4" className="recommend__friends__photo"/>
+              <img
+                src={userThree}
+                alt="user 1"
+                className="recommend__friends__photo"
+              />
+              <img
+                src={userFour}
+                alt="user 2"
+                className="recommend__friends__photo"
+              />
+              <img
+                src={userFive}
+                alt="user 3"
+                className="recommend__friends__photo"
+              />
+              <img
+                src={userSix}
+                alt="user 4"
+                className="recommend__friends__photo"
+              />
             </div>
           </div>
         </div>
 
         <div className="hotel-view__detail__user-reviews">
-          <UserReviewCard />
+          <UserReviewCard package={mock.userReviewOne}/>
+          <UserReviewCard package={mock.userReviewTwo}/>
         </div>
       </div>
     </div>

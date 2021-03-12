@@ -7,14 +7,35 @@
 }
 
 html {
-  font-size: 62.5%;  // 1rem = 10px, 10px/16px = 62.5% ... 16px being the default font size
+  font-size: 62.5%; // 10px/16px = 62.5%, so 1rem = 10px  ... 16px being the default font size
   scroll-behavior: smooth;
 
-  @include respond(75em) {
+  @include respond(max, 75em) {
     // width < 1200?
     font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
   }
+
+  @include respond(min, 112.5em) {
+    // width < 1800?
+    font-size: 75%; //1 rem = 12px, 12/16 = 75%
+  }
 }
+
+//phone
+// 37.5em
+//600px
+
+//tab-port
+// 56.25em
+//900px
+
+//tab-land
+// 75em
+//1200px
+
+//big desktop
+// 112.5em
+//1800
 
 body {
   box-sizing: border-box;

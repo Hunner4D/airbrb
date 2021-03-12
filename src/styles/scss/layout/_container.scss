@@ -5,4 +5,10 @@
     box-shadow: $shadow-dark;
   
     min-height: 50rem;
+
+    @include respond(75em) {
+      margin: 0;
+      max-width: 100%;
+      width: 100%;
+    }
   }

@@ -376,9 +376,13 @@ body {
     .container {
       margin: 0;
       max-width: 100%;
-      width: 100%; } }
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column; } }
 
 .content {
+  flex: 1;
   display: flex; }
 
 .header {
@@ -391,7 +395,8 @@ body {
   align-items: center; }
 
 .main-view {
-  flex: 1; }
+  flex: 1;
+  display: flex; }
 
 .sidebar {
   background-color: #333;
@@ -400,20 +405,24 @@ body {
   flex-direction: column;
   justify-content: space-between; }
 
-.hotel-view__detail {
+.hotel-view {
   display: flex;
-  padding: 4.5rem;
-  background-color: #f4f2f2;
-  border-bottom: 1px solid #f0eeee;
-  font-size: 1.4rem; }
-  .hotel-view__detail__description {
-    background-color: #fff;
-    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
-    padding: 3rem;
-    flex: 0 0 60%;
-    margin-right: 4.5rem; }
-  .hotel-view__detail__user-reviews {
-    flex: 1;
+  flex-direction: column; }
+  .hotel-view__detail {
+    flex-grow: 1;
     display: flex;
-    flex-direction: column;
-    align-items: center; }
+    padding: 4.5rem;
+    background-color: #f4f2f2;
+    border-bottom: 1px solid #f0eeee;
+    font-size: 1.4rem; }
+    .hotel-view__detail__description {
+      background-color: #fff;
+      box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+      padding: 3rem;
+      flex: 0 0 60%;
+      margin-right: 4.5rem; }
+    .hotel-view__detail__user-reviews {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }

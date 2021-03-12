@@ -1,5 +1,10 @@
 .hotel-view {
+  display: flex;
+  flex-direction: column;
+
   &__detail {
+    flex-grow: 1;
+
     display: flex;
     padding: 4.5rem;
     background-color: $color-grey-light-2;

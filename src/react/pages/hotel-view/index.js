@@ -65,8 +65,11 @@ export default function HotelView() {
         </div>
 
         <div className="hotel-view__detail__user-reviews">
-          <ReviewCard package={mock.userReviewOne}/>
-          <ReviewCard package={mock.userReviewTwo}/>
+          <ReviewCard package={mock.userReviewOne} />
+          <ReviewCard package={mock.userReviewTwo} />
+          <button className="btn-inline">
+            Show all <span>&rarr;</span>
+          </button>
         </div>
       </div>
     </div>

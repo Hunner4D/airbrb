@@ -10,6 +10,7 @@
     background-color: $color-grey-light-2;
     border-bottom: $border-secondary;
     font-size: 1.4rem;
+  
 
     &__description {
       background-color: #fff;
@@ -17,6 +18,9 @@
       padding: 3rem;
       flex: 0 0 60%;
       margin-right: 4.5rem;
+      margin-top: auto;
+      margin-bottom: auto;
+      // max-height: 650px;
     }
 
     &__user-reviews {

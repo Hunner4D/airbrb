@@ -6,7 +6,7 @@
   
     min-height: 50rem;
 
-    @include respond(max, 75em) {
+    @include respond(max, $bp-1200) {
       margin: 0;
       max-width: 100%;
       width: 100%;

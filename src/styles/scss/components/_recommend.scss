@@ -21,7 +21,7 @@
       &:not(:last-child) {
         margin-right: -1.5rem;
 
-        @include respond(max, 68.75em) {
+        @include respond(max, $bp-1100) {
           margin-right: -2.25rem;
         }
       }

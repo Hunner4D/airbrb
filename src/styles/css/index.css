@@ -137,6 +137,9 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .cta {
+      background-color: transparent; } }
 
 .gallery {
   display: flex; }
@@ -206,7 +209,7 @@ body {
     border: 3px solid #fff; }
     .recommend__friends__photo:not(:last-child) {
       margin-right: -1.5rem; }
-      @media only screen and (max-width: 68.75) {
+      @media only screen and (max-width: 68.75em) {
         .recommend__friends__photo:not(:last-child) {
           margin-right: -2.25rem; } }
 
@@ -438,8 +441,10 @@ body {
         display: none; } }
 
 .hotel-view {
+  flex: 1;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: space-between; }
   .hotel-view__detail {
     flex-grow: 1;
     display: flex;
@@ -466,3 +471,12 @@ body {
         .hotel-view__detail__description {
           padding: 4rem;
           margin-right: 2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .hotel-view__detail {
+        flex-grow: 0;
+        padding: 1rem;
+        flex-direction: column; }
+        .hotel-view__detail__description {
+          margin-right: 0;
+          margin-top: 2rem;
+          margin-bottom: 3rem; } }

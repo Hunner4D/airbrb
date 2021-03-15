@@ -1,6 +1,7 @@
 import Gallery from "react/components/gallery";
 import Overview from "react/components/overview";
 import ReviewCard from "react/components/review-card";
+import CTA from "react/components/cta";
 
 import userThree from "images/user-3.jpg";
 import userFour from "images/user-4.jpg";
@@ -72,15 +73,7 @@ export default function HotelView() {
           </button>
         </div>
       </div>
-      <div className="cta">
-        <h2 className="cta__book-now">
-          Good news! We have 4 open rooms for your selected dates!
-        </h2>
-        <button className="btn">
-          <span className="btn__visible">Book now</span>
-          <span className="btn__invisible">Only 4 rooms left</span>
-        </button>
-      </div>
+      <CTA />
     </div>
   );
 }

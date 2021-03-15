@@ -11,6 +11,10 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.5rem 3rem;
+
+    @include respond(max, $bp-600) {
+      font-size: 1.75rem;
+    }
   }
 
   &__stars {
@@ -53,6 +57,10 @@
       font-size: 2.25rem;
       font-weight: 300;
       margin-bottom: -3px;
+
+      @include respond(max, $bp-600) {
+        font-size: 1.75rem;
+      }
     }
 
     &-count {

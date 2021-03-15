@@ -10,10 +10,6 @@
   }
 
   @include respond(max, $bp-600) {
-    background-color: transparent;
-
-    &__book-now {
-      // margin-bottom: 0;
-    }
+    background-color: $color-grey-light-2;
   }
 }

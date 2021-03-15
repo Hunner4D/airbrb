@@ -139,7 +139,7 @@ body {
     margin-bottom: 2.5rem; }
   @media only screen and (max-width: 37.5em) {
     .cta {
-      background-color: transparent; } }
+      background-color: #f4f2f2; } }
 
 .gallery {
   display: flex; }

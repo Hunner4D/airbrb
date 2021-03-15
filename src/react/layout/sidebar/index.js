@@ -41,7 +41,7 @@ export default function Sidebar() {
             <svg className="side-nav__icon">
               <use xlinkHref={`${sprite}#icon-map`} />
             </svg>
-            <span>Attractions</span>
+            <span>Tours</span>
           </a>
         </li>
       </ul>

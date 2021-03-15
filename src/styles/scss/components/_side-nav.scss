@@ -5,7 +5,7 @@
 
   @include respond(max, $bp-900) {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0;
   }
 
@@ -78,6 +78,7 @@
     @include respond(max, $bp-600) {
       flex-direction: column;
       padding: 1.5rem .5rem;
+      text-align: center;
     }
   }
 

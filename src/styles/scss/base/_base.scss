@@ -10,6 +10,10 @@ html {
   font-size: 62.5%; // 10px/16px = 62.5%, so 1rem = 10px  ... 16px being the default font size
   scroll-behavior: smooth;
 
+  @include respond(max, $bp-900) {
+    font-size: 50%;
+  }
+
   @include respond(max, $bp-1200) {
     font-size: 56.25%;
   }

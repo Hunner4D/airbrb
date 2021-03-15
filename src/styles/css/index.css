@@ -19,6 +19,9 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -295,12 +298,23 @@ body {
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .side-nav {
+      display: flex;
+      justify-content: center;
+      margin: 0; } }
   .side-nav__item {
     position: relative; }
     .side-nav__item:not(:last-child) {
       margin-bottom: 0.5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__item {
+        flex: 1; }
+        .side-nav__item:not(:last-child) {
+          margin-bottom: 0; } }
   .side-nav__item::before {
     content: "";
+    visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -309,7 +323,13 @@ body {
     background-color: #eb2f64;
     transform: scaleY(0);
     transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__item::before {
+        width: 100%;
+        transform: scaleX(0);
+        transition: transform 0.2s, cubic-bezier(1, 0.67, 0, 0.47) ease-in, background-color 0.1s; } }
   .side-nav__item:hover::before, .side-nav__item--active::before {
+    visibility: visible;
     transform: scaleY(1);
     width: 100%; }
   .side-nav__item:active::before {
@@ -324,6 +344,10 @@ body {
     z-index: 10;
     display: flex;
     align-items: center; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        justify-content: center;
+        padding: 2rem; } }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
@@ -407,6 +431,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+  @media only screen and (max-width: 56.25em) {
+    .sidebar {
+      flex: none; }
+      .sidebar .legal {
+        display: none; } }
 
 .hotel-view {
   display: flex;
@@ -431,3 +460,9 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center; }
+    @media only screen and (max-width: 56.25em) {
+      .hotel-view__detail {
+        padding: 2rem; }
+        .hotel-view__detail__description {
+          padding: 4rem;
+          margin-right: 2rem; } }

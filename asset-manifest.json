@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/airbrb/static/css/main.502fe4b7.chunk.css",
+    "main.js": "/airbrb/static/js/main.7db1750f.chunk.js",
+    "main.js.map": "/airbrb/static/js/main.7db1750f.chunk.js.map",
+    "runtime-main.js": "/airbrb/static/js/runtime-main.2f108c32.js",
+    "runtime-main.js.map": "/airbrb/static/js/runtime-main.2f108c32.js.map",
+    "static/js/2.9cf5f1a0.chunk.js": "/airbrb/static/js/2.9cf5f1a0.chunk.js",
+    "static/js/2.9cf5f1a0.chunk.js.map": "/airbrb/static/js/2.9cf5f1a0.chunk.js.map",
+    "index.html": "/airbrb/index.html",
+    "static/css/main.502fe4b7.chunk.css.map": "/airbrb/static/css/main.502fe4b7.chunk.css.map",
+    "static/js/2.9cf5f1a0.chunk.js.LICENSE.txt": "/airbrb/static/js/2.9cf5f1a0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/airbrb/static/media/chevron-thin-right.ae29a6a2.svg",
+    "static/media/hotel-1.b766cfcb.jpg": "/airbrb/static/media/hotel-1.b766cfcb.jpg",
+    "static/media/hotel-2.174fcb5d.jpg": "/airbrb/static/media/hotel-2.174fcb5d.jpg",
+    "static/media/hotel-3.710a5ec7.jpg": "/airbrb/static/media/hotel-3.710a5ec7.jpg",
+    "static/media/symbol-defs.4c7b65cf.svg": "/airbrb/static/media/symbol-defs.4c7b65cf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f108c32.js",
+    "static/js/2.9cf5f1a0.chunk.js",
+    "static/css/main.502fe4b7.chunk.css",
+    "static/js/main.7db1750f.chunk.js"
+  ]
+}

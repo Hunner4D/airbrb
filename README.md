@@ -1,6 +1,7 @@
 # Project: AirBrb
 
 This project will act as a service similar to Airbnb where it will specialize in finding and booking living spaces.
+[https://hunner4d.github.io/airbrb/](https://hunner4d.github.io/airbrb/)
 
 ## Summary
 
@@ -60,7 +61,7 @@ What these tests test and why
 
 ## Deployment
 
-This project will be uploaded through AWS. A link will be made available as soon as it is deployed.
+When fully functional, this project will be uploaded through AWS. A preview however can be found at [https://hunner4d.github.io/airbrb/](https://hunner4d.github.io/airbrb/).
 
 
 ## Built With
